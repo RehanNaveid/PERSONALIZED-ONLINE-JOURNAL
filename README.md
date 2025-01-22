@@ -21,7 +21,7 @@ A simple and interactive web-based journal application designed to let users cre
 
 
 ### Add Journal Entry  
-![Uploading Screenshot 2025-01-22 203653.png…]()
+![Screenshot 2025-01-22 203653](https://github.com/user-attachments/assets/27b77c70-b26d-4667-858b-ac24a9bfec45)
 
 
 
