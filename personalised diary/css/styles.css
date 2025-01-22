@@ -1,0 +1,241 @@
+body{
+    background-color: #f8f8f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container2{
+    padding: 30px 50px;
+    display: flex;
+    gap: 30px;    
+}
+
+.entries-container{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: auto;
+    height: 534px;
+    text-align: center;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+.form-container{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    height: 534px;
+    text-align: center;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+.item{
+    flex: 1;
+}
+.header{
+    display: flex;
+    justify-content: start;
+}
+
+img{
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 25px;
+    margin: 0;
+}
+
+
+
+input[type=text]{
+    border: none;
+    font-size: 30px;
+    text-align: start;
+    width: 100%;
+}
+
+:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(222, 220, 220);
+}
+
+input[type=date]{
+    display: block;
+    margin: 5px;
+    border: 1px solid rgb(243, 236, 236);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+textarea{
+    border: 0.5px solid rgb(235, 233, 233);
+    border-radius: 15px;
+    display: block;
+    margin: 10px 0px;
+    width:45vw;
+    height: 35vh;
+    padding: 15px;
+}
+
+.save-btn{
+    background-color: rgb(255, 136, 0);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80px;
+}
+
+.hamburger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+@media (min-width:319px) and (max-width:580px) {
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #f8f8f8;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+    .nav{
+        display: none;
+    }
+    .content-section{
+        justify-content: center;
+        align-items: center;
+    }
+    .main-line {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr auto auto;
+        gap: 0px;
+        text-align: center;
+    }
+    .grid1{
+        grid-column: 1/1;
+        grid-row: 1/2;
+    }
+    .grid2{
+        grid-column: 1/1;
+        grid-row: 2/3;
+
+    }
+
+    .grid3{
+        grid-column: 1/1;
+        grid-row:3/4;
+    }
+
+    #freepik_stories-bullet-journal{
+        width: 39vh;
+        height: auto;
+    }
+
+    .features{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 10px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .container2 {
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    .save-btn {
+        padding: 10px;
+        font-size: small;
+    }
+
+    .delete-note {
+        font-size: 16px;
+        padding: 2px 6px;
+    }
+    
+    .container1, .container2 {
+        padding: 20px;
+    }
+}
+
+@media (min-width:581px) and (max-width:1200px) {
+
+    .main-line{
+        grid-template-rows: 90% auto;
+        column-gap: 10px;
+        row-gap: 30px;
+    }
+
+    #freepik_stories-bullet-journal{
+        width: auto;
+        height: auto;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+     h2{
+        font-size: 20px;
+     }
+
+     .container1, .container2 {
+        padding: 30px;
+    }
+
+    .features{
+        margin-top: 20px;
+    }
+
+    .container2 {
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+}
+
