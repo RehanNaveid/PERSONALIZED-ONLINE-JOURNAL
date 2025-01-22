@@ -16,12 +16,12 @@ A simple and interactive web-based journal application designed to let users cre
 
 ## Screenshots  
 
-### Home Page  
-![image](https://github.com/user-attachments/assets/3ca50315-b5ac-4ab3-a7d6-ae6f4a771945)
+![Screenshot 2025-01-22 203748](https://github.com/user-attachments/assets/cb9213db-18b4-4231-a3f0-76e88f39ae56)
+
 
 
 ### Add Journal Entry  
-![image](https://github.com/user-attachments/assets/81ea3034-427b-4a32-bf16-a13abbfec3e2)
+![Uploading Screenshot 2025-01-22 203653.png…]()
 
 
 
