@@ -27,9 +27,4 @@ A simple and interactive web-based journal application designed to let users cre
 
 ---
 
-## Setup  
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/personalized-journal.git
-   cd personalized-journal
